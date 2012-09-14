@@ -49,7 +49,7 @@ body{
 	position: relative;
 }
 
-#page_id_5{
+#page_id_5, #page_id_6, #page_id_7, #page_id_8{
 	display: block;
 	background: url('page_5.jpg') no-repeat scroll center top;
 	margin: auto;
@@ -282,6 +282,10 @@ width: 288px;
 	font-size: 14px;
 }
 
+.bodytext_4{
+	font-family: 'helvetica';
+}
+
 .description_4{
 	height: 170px;
 }
@@ -301,6 +305,7 @@ span.dramaticize{
 }
 
 span.emails_4{
+	font-family: 'helvetica';
 	margin-left: 60%;
 }
 
@@ -313,21 +318,24 @@ span.emails_4{
 /*join us page styling*/
 
 #content_5{
+	font-family: 'helvetica';
 	width: 830px;
-	font-size: 18px;
+	font-size: 17px;
 	margin-top: -1em;
 	margin-left: auto;
 	margin-right: auto;
 	color: #e5e5e5;
 }
 
-#title_5{
+#title_5, #title_8{
+	font-family: 'BauhausRegular';
 	width: 830px;
 	text-align: center;
 	color: #ffffff;
 }
 
 .emphasize_5{
+	font-family: 'BauhausRegular';
 	color: #ffffff;
 	font-size: 24px;
 }
@@ -349,9 +357,9 @@ span.emails_4{
 #links_5 li, .role_links_5{
 	line-height: 2;
 	text-decoration: underline;
-	margin-left: 1em;
+	margin-left: .9em;
 	display: inline;
-	font-size: 24px;
+	font-size: 23px;
 	color: #ffffff;
 }
 
@@ -361,6 +369,19 @@ span.emails_4{
 
 .role_links_5:visited{
 	color: 
+}
+
+/*Manager page styling*/
+
+#content_8{
+	font-family: 'helvetica';
+	width: 830px;
+	font-size: 17px;
+	margin-top: -1em;
+	margin-left: auto;
+	margin-right: auto;
+	color: #e5e5e5;
+	line-height: 1.5;
 }
 
 /*footer styling*/
